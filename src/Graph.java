@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Graph {
-	private final double weights[][];
+	public final double[][] weights;
 
 	public Graph(int n) {
 		weights = new double[n][n];

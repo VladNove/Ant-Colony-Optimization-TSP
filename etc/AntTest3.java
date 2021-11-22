@@ -41,7 +41,7 @@ public class AntTest3 {
 
 
 				Util.resetRandom(k);
-				AntColony antColony2 = new AntColony(graph, 2, 5, 1, 0.1, 50);
+				AntColony antColony2 = new AntColony(graph, 2, 5, 0, 0.2, 50);
 
 				startTime = System.currentTimeMillis();
 				for (int i = 0; i < maxsteps; i++) {
